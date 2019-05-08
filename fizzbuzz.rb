@@ -4,6 +4,7 @@
 
 def fizzbuzz(num)
   return num
+  puts num
 end
 
 fizzbuzz(3)
