@@ -4,4 +4,5 @@
 100.times do |f|
   f = 1
   puts f
+  f = f + 1
 end
