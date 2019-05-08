@@ -4,5 +4,4 @@
 100.times do |f|
   f = 1
   puts f
-  f++
 end
