@@ -4,3 +4,9 @@
 puts 1 % 3
 puts 2 % 3
 puts 3 % 3
+
+if 3 % 3 == 0
+  puts "fizz"
+else
+  puts "no"
+end
