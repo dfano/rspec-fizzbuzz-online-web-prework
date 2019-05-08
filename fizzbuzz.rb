@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 100.times do |f|
-  f = 1
+  f = "test"
   puts f
-  f = f + 1
 end
