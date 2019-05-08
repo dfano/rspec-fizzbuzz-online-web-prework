@@ -5,6 +5,8 @@ num = 3
 
 if num % 3 == 0
   puts "fizz"
+elsif num % 5 == 0
+  puts "buzz"
 else
   puts "no"
 end
