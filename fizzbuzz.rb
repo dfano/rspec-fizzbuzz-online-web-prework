@@ -3,10 +3,12 @@
 
 num = 3
 
-if num % 3 == 0
-  puts "fizz"
+if num % 3 == 0 && num % 5 == 0
+  puts "FizzBuzz"
 elsif num % 5 == 0
-  puts "buzz"
+  puts "Buzz"
+elsif num % 3 == 0
+  puts "Fizz"
 else
-  puts "no"
+  nil
 end
